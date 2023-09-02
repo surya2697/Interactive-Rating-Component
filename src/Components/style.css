@@ -1,0 +1,19 @@
+/* Assuming you have a CSS file (e.g., styles.css) */
+.custom-button {
+  /* Normal state styles */
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  /* Add other styles as needed */
+}
+.custom-button:hover {
+  background-color: white;
+  color: orange;
+}
+.rating-button {
+  background-color: "#33334d";
+  color: "hsl(217, 12%, 63%)";
+}
+.rating-button :hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}

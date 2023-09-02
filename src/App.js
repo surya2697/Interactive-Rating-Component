@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Box,Text,Link } from '@chakra-ui/react';
+import AllRoutes from './Allroutes/AllRoutes';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <Box margin='auto' textAlign='center' marginTop='10px'>
+      <Box>
+     <Text fontSize='large' color='white' fontFamily='inherit'> Challenge by
+      <Link color='grey' href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        > Frontend Mentor</Link>. Coded by <Link color='grey' href="#">Surya Ahire</Link>.</Text> 
+    </Box>
+   
+    <AllRoutes/>
+    
+          
+    </Box>
+  
   );
 }
 
